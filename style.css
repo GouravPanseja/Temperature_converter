@@ -25,7 +25,8 @@ body{
     display:flex;
     justify-content: center;
     align-items: center;
-    background: var(--background);
+    background:radial-gradient(circle farthest-corner  at top left, var(--background) ,#fffdf5);
+    ;
 
 }
 
@@ -47,7 +48,7 @@ body{
 
 }
 #tempCalc h4{
-    text-shadow:3px 3px 5px #b2b2b2;
+    text-shadow:3px 3px 5px #6e6e6e;
 }
 
 .input{
