@@ -1,9 +1,9 @@
 :root{
     --background:#F5E8B7;
-    --foreground:#ff9e54;
+    --foreground:#ffa45e;
 }
 .dark-theme{
-    --background:#ff9e54;
+    --background:#fca05a;
     --foreground:#F5E8B7;
 }
 
@@ -112,6 +112,9 @@ form div{
     margin-top:1.25rem;
 }
 
+form{
+    position:relative;
+}
 @media (max-width:790px){
     html{
         font-size:90%;
@@ -148,5 +151,23 @@ form div{
     html{
         font-size:30%;
     }
+}
+
+#container{
+   
+    padding:100px;
+    color:white;
+    background:#222f3e ;
+    font-size:80px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.therm{
+  position:absolute;
+  top:40px;
+  right:20px;
+  
 }
 
